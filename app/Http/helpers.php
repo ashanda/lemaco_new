@@ -1403,7 +1403,7 @@ function validate_binary_commissions( $ref_s,$virtual_parentid,$current_row_uid,
                   
                   binary_commission_update_query($ref_s,$User_binary_details,$virtual_parentid,$current_row_uid,$new_binary_commission,$User_packages_details);    
                   binary_commission_update_query_hold($ref_s,$User_binary_details,$virtual_parentid,$current_row_uid,$hold_commission);
-                  Log::alert($hold_commission);
+                 // Log::alert($hold_commission);
                   $balance_commission = 0; 
             
           }            
